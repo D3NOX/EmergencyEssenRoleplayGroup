@@ -31,6 +31,13 @@ body {
 }
 
 .box-icon {
+    max-width: 80px; /* Maximalbreite des Icons */
+    max-height: 80px; /* Maximalhöhe des Icons */
+    margin-bottom: 30px; /* Abstand zwischen dem Icon und dem Text */
+    vertical-align: middle; /* Vertikale Ausrichtung des Icons */
+}
+
+.box-icon2 {
     max-width: 40px; /* Maximalbreite des Icons */
     max-height: 40px; /* Maximalhöhe des Icons */
     margin-bottom: 30px; /* Abstand zwischen dem Icon und dem Text */
@@ -81,11 +88,11 @@ body {
     padding: 10px 15px;
     border-radius: 0px;
     transition: background-color 0.3s ease, color 0.3s ease;
-    border: 2px solid #8ba7b2;
+    border: 2px solid #335fff;
 }
 
 .nav-links li a:hover {
-    background-color: #8ba7b2;
+    background-color: #335fff;
     color: #fff;
 }
 
@@ -137,7 +144,7 @@ body {
 }
 
 .btn-primary {
-    background-color: #8ba7b2;
+    background-color: #213b9b;
     color: #fff;
     padding: 10px 50px;
     text-decoration: none;
@@ -149,7 +156,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #98b7ca;
+    background-color: #335fff;
 }
 
 .btn-icon {
@@ -192,7 +199,7 @@ body {
 }
 
 .box2:hover {
-    background-color: #8ba7b2;
+    background-color: #335fff;
 }
 
 .box img {
@@ -214,14 +221,14 @@ body {
     display: inline-block;
     padding: 10px 20px;
     color: #fff;
-    background-color: #76b4c1;
+    background-color: #213b9b;
     border-radius: 0px;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
 .btn-secondary:hover {
-    background-color: #ace4ea;
+    background-color: #335fff;
 }
 
 h3 {
