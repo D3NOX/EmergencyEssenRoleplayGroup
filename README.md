@@ -1,1 +1,1 @@
-# EmergencyEssenRoleplayGroup
+# Majestic Essen
